@@ -1,0 +1,54 @@
+nav  {
+    background-image: linear-gradient(to bottom, #ADD8E6, transparent);
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    margin: 1rem;
+}
+
+nav a {
+    display: block;
+    color: cadetblue;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16 px;
+}
+
+nav a:hover {
+    background-color: rgb(64, 240, 108);
+}
+
+.productos{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.productos p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.productoLista {
+    /* border: 5px solid red; */
+    margin: 0.5rem;
+}
+
+footer, .info, .redes {
+    display: flex;
+    flex-direction: row;
+}
+
+footer a {
+    text-decoration: none;
+    margin: 1rem;
+}
