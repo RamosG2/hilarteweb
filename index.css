@@ -43,6 +43,10 @@ nav a:hover {
     margin: 0.5rem;
 }
 
+.productoLista img {
+    
+}
+
 footer, .info, .redes {
     display: flex;
     flex-direction: row;
